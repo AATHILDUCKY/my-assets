@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Safe XSS Proof-of-Concept</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#0f172a; color:#e6eef8; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; }
+    .card { background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.03)); padding:28px; border-radius:12px; width:min(760px,92vw); box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+    h1 { margin:0 0 8px 0; font-size:20px; }
+    p { margin:6px 0; color:#cfe8ff; }
+    pre { background:rgba(255,255,255,0.03); padding:12px; border-radius:8px; overflow:auto; color:#dbeafe; }
+    .ok { color:#86efac; font-weight:600; }
+    .warn { color:#ffd580; font-weight:600; }
+    footer { margin-top:12px; font-size:13px; color:#9fb2d9; }
+    button { margin-top:12px; padding:8px 12px; border-radius:8px; border:0; background:#1e3a8a; color:white; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <div class="card" role="main">
+    <h1>Safe XSS Proof-of-Concept</h1>
+    <p>This page intentionally triggers a harmless alert to demonstrate that script execution occurred. It <strong>does not</strong> access or exfiltrate cookies or tokens.</p>
+
+    <button id="run">Run test (non-malicious)</button>
+
+    <pre id="output" aria-live="polite"></pre>
+
+    <footer>
+      Use this only on targets you are authorized to test. For checking cookie protections (HttpOnly / Secure / SameSite) use browser devtools, Burp/ZAP, or curl as described below.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('run').addEventListener('click', function () {
+      // Harmless visual confirmation only:
+      alert('Safe XSS test — script executed (no cookies read/sent).');
+
+      const out = document.getElementById('output');
+      out.textContent = [
+        'document.domain: ' + (document.domain || '<none>'),
+        'document.referrer: ' + (document.referrer || '<none>'),
+        'timestamp: ' + new Date().toISOString(),
+        '',
+        'NOTE: This proof-of-concept intentionally does NOT access document.cookie or send any data to external servers.'
+      ].join('\n');
+    });
+  </script>
+</body>
+</html>
