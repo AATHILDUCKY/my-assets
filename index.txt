@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceylani Expo (Pvt) Ltd | Premium Sri Lankan Export Company</title>
+  <meta name="description" content="Ceylani Expo (Pvt) Ltd is a Sri Lankan export company specializing in premium dry fish, spices, and authentic local products for global buyers. Certified quality, professional documentation, and reliable shipping worldwide." />
+  <meta name="keywords" content="Ceylani Expo, Sri Lanka exports, Sri Lankan spices, dry fish exporter, Ceylon cinnamon, bulk spices, Asian food export, Sri Lanka export company" />
+  <meta name="author" content="Ceylani Expo (Pvt) Ltd" />
+  <link rel="canonical" href="https://www.ceylaniexpo.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ceylani Expo (Pvt) Ltd | Premium Sri Lankan Export Company" />
+  <meta property="og:description" content="Premium Sri Lankan dry fish, spices, and local products exported with certified quality and reliable logistics." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ceylaniexpo.com/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1587332278432-183b6a2a0d6c?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ceylani: {
+              primary: "#0B6E4F", /* deep green */
+              accent: "#C58B2B",  /* warm gold */
+              navy: "#163858",   /* export-professional navy */
+              soft: "#F6F4EF",   /* light background */
+              border: "#E3E3E3",
+              light: "#E8F5F0"
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            'elegant': '0 4px 20px rgba(0, 0, 0, 0.08)',
+            'hover': '0 10px 30px rgba(0, 0, 0, 0.12)'
+          }
+        },
+      },
+    };
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Light Theme Styling -->
+  <style>
+    html { scroll-behavior: smooth; }
+    
+    .fade-in-up {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .gradient-bg {
+      background: linear-gradient(135deg, #0B6E4F 0%, #163858 100%);
+    }
+    
+    .section-padding {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    
+    @media (max-width: 768px) {
+      .section-padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+    }
+    
+    .card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+    
+    .product-card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .btn-primary {
+      background-color: #0B6E4F;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+      background-color: #09573e;
+      transform: translateY(-2px);
+    }
+    
+    .btn-secondary {
+      background-color: transparent;
+      color: #0B6E4F;
+      border: 1px solid #0B6E4F;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-secondary:hover {
+      background-color: #0B6E4F;
+      color: white;
+    }
+    
+    .nav-link {
+      position: relative;
+      padding: 0.5rem 0;
+      font-weight: 500;
+      color: #374151;
+      transition: color 0.3s ease;
+    }
+    
+    .nav-link:hover {
+      color: #0B6E4F;
+    }
+    
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: #0B6E4F;
+      transition: width 0.3s ease;
+    }
+    
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    
+    .stat-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+    
+    .testimonial-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      position: relative;
+    }
+    
+    .testimonial-card::before {
+      content: '"';
+      position: absolute;
+      top: 1rem;
+      left: 1.5rem;
+      font-size: 4rem;
+      color: #E8F5F0;
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+    
+    .section-title {
+      position: relative;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background-color: #C58B2B;
+    }
+    
+    .center-title .section-title::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ceylani Expo (Pvt) Ltd",
+    "url": "https://www.ceylaniexpo.com/",
+    "logo": "https://images.unsplash.com/photo-1587332278432-183b6a2a0d6c?auto=format&fit=crop&w=200&q=80",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "LK",
+      "addressLocality": "Colombo",
+      "addressRegion": "Western Province",
+      "postalCode": "00100",
+      "streetAddress": "Colombo, Sri Lanka"
+    },
+    "sameAs": [
+      "https://www.linkedin.com",
+      "https://www.facebook.com"
+    ],
+    "description": "Professional Sri Lankan export company providing premium dry fish, spices and authentic local products for global buyers."
+  }
+  </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Top Info Bar -->
+  <div class="w-full bg-ceylani.navy text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <i class="fa-solid fa-location-dot text-ceylani.accent"></i>
+        <span>Colombo, Sri Lanka · Exporting Worldwide</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <div class="hidden md:flex items-center gap-2">
+          <i class="fa-solid fa-phone text-ceylani.accent"></i>
+          <a href="tel:+94112223344" class="hover:text-ceylani.accent transition">+94 11 222 3344</a>
+        </div>
+        <a href="mailto:sales@ceylaniexpo.com" class="hidden md:inline hover:text-ceylani.accent transition">
+          sales@ceylaniexpo.com
+        </a>
+        <div class="flex items-center gap-2">
+          <span>Follow us:</span>
+          <a href="#" class="hover:text-ceylani.accent transition"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="hover:text-ceylani.accent transition"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-ceylani.accent transition"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-ceylani.border shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <!-- Logo / Brand -->
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-ceylani.primary to-ceylani.accent flex items-center justify-center text-white font-bold text-lg">
+          CE
+        </div>
+        <div>
+          <div class="font-bold text-xl text-ceylani.navy leading-tight">
+            Ceylani Expo
+          </div>
+          <div class="text-xs text-gray-500">
+            Premium Sri Lankan Export Solutions
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-8">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#process" class="nav-link">Our Process</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="flex items-center gap-4">
+        <a href="#contact" class="btn-primary hidden md:inline-block">
+          Request a Quote
+        </a>
+
+        <!-- Mobile Menu -->
+        <button id="menuToggle" class="lg:hidden text-gray-700 hover:text-ceylani.primary">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="lg:hidden max-h-0 overflow-hidden transition-all duration-300 bg-white border-t border-ceylani.border">
+      <nav class="flex flex-col px-4 py-4 text-gray-700 gap-4">
+        <a href="#home" class="nav-link py-2">Home</a>
+        <a href="#about" class="nav-link py-2">About Us</a>
+        <a href="#products" class="nav-link py-2">Products</a>
+        <a href="#certifications" class="nav-link py-2">Certifications</a>
+        <a href="#process" class="nav-link py-2">Our Process</a>
+        <a href="#testimonials" class="nav-link py-2">Testimonials</a>
+        <a href="#contact" class="nav-link py-2">Contact Us</a>
+        <a href="#contact" class="btn-primary text-center mt-2">
+          Request a Quote
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home">
+    <section class="gradient-bg text-white">
+      <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center gap-12">
+        <!-- Hero Text -->
+        <div class="flex-1 fade-in-up">
+          <p class="text-sm font-medium text-ceylani.accent tracking-wider uppercase mb-4">
+            Trusted Sri Lankan Export Partner
+          </p>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            Premium Sri Lankan
+            <span class="text-ceylani.accent">Export Products</span>
+            for Global Markets
+          </h1>
+          <p class="text-lg text-gray-100 mb-8 max-w-2xl">
+            Ceylani Expo (Pvt) Ltd specializes in premium dry fish, authentic Ceylon spices, and selected local goods. We provide certified quality, transparent sourcing, and reliable shipping to importers, wholesalers, and brands worldwide.
+          </p>
+          <div class="flex flex-wrap items-center gap-4 mb-6">
+            <a href="#contact" class="btn-primary bg-ceylani.accent hover:bg-amber-600">
+              Request a Quote
+            </a>
+            <a href="#products" class="btn-secondary border-white text-white hover:bg-white hover:text-ceylani.navy">
+              Explore Products
+            </a>
+          </div>
+          <div class="flex flex-wrap gap-6 text-sm text-gray-200">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-shield-halved text-ceylani.accent"></i>
+              <span>Consistent Quality & Compliance</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-globe text-ceylani.accent"></i>
+              <span>Serving EU · Middle East · Asia · North America</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-ship text-ceylani.accent"></i>
+              <span>Sea & Air Freight Specialists</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="flex-1 fade-in-up">
+          <div class="relative">
+            <div class="card overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/AATHILDUCKY/my-assets/refs/heads/main/spices-collection-Cv8AIQeg.jpg"
+                alt="Sri Lankan spices and products"
+                class="w-full h-80 object-cover"
+              />
+            </div>
+            <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-elegant p-4 max-w-xs">
+              <h3 class="font-semibold text-ceylani.navy mb-2 text-black">Why Work With Us?</h3>
+              <ul class="text-sm text-gray-600 space-y-1">
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-ceylani.primary mt-1"></i>
+                  <span>Direct sourcing from verified producers</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-ceylani.primary mt-1"></i>
+                  <span>Structured QA, documentation & traceability</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-ceylani.primary mt-1"></i>
+                  <span>Dedicated account management</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <div class="bg-ceylani.light py-8">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex flex-wrap justify-center items-center gap-10 md:gap-16 text-gray-600">
+          <div class="text-center">
+            <div class="text-2xl font-bold text-ceylani.primary">25+</div>
+            <div class="text-sm">International Buyers</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold text-ceylani.primary">100%</div>
+            <div class="text-sm">Quality Checked</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold text-ceylani.primary">15+</div>
+            <div class="text-sm">Years Experience</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold text-ceylani.primary">50+</div>
+            <div class="text-sm">Products</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="fade-in-up">
+            <h2 class="section-title text-3xl font-bold text-ceylani.navy">
+              About Ceylani Expo
+            </h2>
+            <p class="text-gray-600 mb-4">
+              Ceylani Expo (Pvt) Ltd is a professionally managed export company dedicated to taking
+              Sri Lanka's finest coastal and agricultural products to the world with integrity,
+              consistency, and compliance.
+            </p>
+            <p class="text-gray-600 mb-6">
+              We collaborate closely with fishermen communities, farmers, and certified processing
+              facilities to ensure each consignment meets strict international standards —
+              from raw material selection to moisture control, grading, packing, and documentation.
+            </p>
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <div class="flex items-start gap-3">
+                <div class="w-10 h-10 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">End-to-end Support</h4>
+                  <p class="text-sm text-gray-600">FOB, CIF, custom terms</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-10 h-10 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Transparent Sourcing</h4>
+                  <p class="text-sm text-gray-600">Verified producers & QA</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-10 h-10 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Market Compliance</h4>
+                  <p class="text-sm text-gray-600">Destination regulations</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-10 h-10 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Partnership Focus</h4>
+                  <p class="text-sm text-gray-600">Long-term relationships</p>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn-primary inline-block">
+              Contact Our Team
+            </a>
+          </div>
+          <div class="fade-in-up">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="card overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/AATHILDUCKY/my-assets/refs/heads/main/dry-fish-products-C0yORO5f.jpg"
+                  alt="Ceylani Expo team"
+                  class="w-full h-48 object-cover"
+                />
+              </div>
+              <div class="card overflow-hidden mt-8">
+                <img
+                  src="https://raw.githubusercontent.com/AATHILDUCKY/my-assets/refs/heads/main/hero-background-BjIM_1jF.jpg"
+                  alt="Sri Lankan products"
+                  class="w-full h-48 object-cover"
+                />
+              </div>
+              <div class="card overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/AATHILDUCKY/my-assets/refs/heads/main/packaging-shipping-D6Y43Qf5.jpg"
+                  alt="Quality control"
+                  class="w-full h-48 object-cover"
+                />
+              </div>
+              <div class="card overflow-hidden mt-8">
+                <img
+                  src="https://raw.githubusercontent.com/AATHILDUCKY/my-assets/refs/heads/main/spices-collection-Cv8AIQeg.jpg"
+                  alt="Packaging process"
+                  class="w-full h-48 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS / CATALOG -->
+    <section id="products" class="section-padding bg-ceylani.soft">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 center-title">
+          <h2 class="section-title text-3xl font-bold text-ceylani.navy inline-block">
+            Our Product Portfolio
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+            Explore our key export lines. We offer premium Sri Lankan products with certified quality,
+            perfect for professional buyers, distributors, and brand owners.
+          </p>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="product-card card fade-in-up">
+            <div class="relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?auto=format&fit=crop&w=800&q=80"
+                alt="Ceylon Cinnamon Sticks"
+                class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
+              />
+              <div class="absolute top-4 right-4 bg-ceylani.primary text-white text-xs font-medium px-2 py-1 rounded">
+                Spices
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-2">Ceylon Cinnamon Sticks</h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                True Ceylon cinnamon (Cinnamomum verum), export-grade C4/C5, hand-rolled and cleaned.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-ceylani.primary font-medium">Bulk 5kg / 10kg / 25kg</span>
+                <a href="#contact" class="btn-primary text-sm">
+                  Request Quote
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="product-card card fade-in-up">
+            <div class="relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1505576633757-0ac1084af824?auto=format&fit=crop&w=800&q=80"
+                alt="Ceylon Black Pepper"
+                class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
+              />
+              <div class="absolute top-4 right-4 bg-ceylani.primary text-white text-xs font-medium px-2 py-1 rounded">
+                Spices
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-2">Ceylon Black Pepper</h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                High piperine content, machine-cleaned, graded; ideal for spice brands and food processors.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-ceylani.primary font-medium">Bulk 25kg bags</span>
+                <a href="#contact" class="btn-primary text-sm">
+                  Request Quote
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="product-card card fade-in-up">
+            <div class="relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1615486511681-9b948c1b477e?auto=format&fit=crop&w=800&q=80"
+                alt="Premium Dried Sprats"
+                class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
+              />
+              <div class="absolute top-4 right-4 bg-ceylani.accent text-white text-xs font-medium px-2 py-1 rounded">
+                Dry Fish
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-2">Premium Dried Sprats</h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                Hygienically dried, low moisture, sorted for export markets; vacuum or bulk packed.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-ceylani.primary font-medium">10kg / 20kg</span>
+                <a href="#contact" class="btn-primary text-sm">
+                  Request Quote
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="product-card card fade-in-up">
+            <div class="relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1625945279834-77c1c8c9fa4a?auto=format&fit=crop&w=800&q=80"
+                alt="Selected Maldive Fish"
+                class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
+              />
+              <div class="absolute top-4 right-4 bg-ceylani.accent text-white text-xs font-medium px-2 py-1 rounded">
+                Dry Fish
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-2">Selected Maldive Fish</h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                Carefully processed, smoked and dried; cubes and flakes for regional cuisines.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-ceylani.primary font-medium">Custom cuts & packs</span>
+                <a href="#contact" class="btn-primary text-sm">
+                  Request Quote
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="product-card card fade-in-up">
+            <div class="relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=800&q=80"
+                alt="Desiccated Coconut"
+                class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
+              />
+              <div class="absolute top-4 right-4 bg-ceylani.navy text-white text-xs font-medium px-2 py-1 rounded">
+                Specialty
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-2">Desiccated Coconut</h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                Fine & medium grades, sulphite controlled, food-grade packaging for confectionery and bakery.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-ceylani.primary font-medium">25kg export bags</span>
+                <a href="#contact" class="btn-primary text-sm">
+                  Request Quote
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="product-card card fade-in-up">
+            <div class="relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&w=800&q=80"
+                alt="Private Label Spice Packs"
+                class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
+              />
+              <div class="absolute top-4 right-4 bg-ceylani.navy text-white text-xs font-medium px-2 py-1 rounded">
+                Specialty
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-2">Private Label Solutions</h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                Custom blends, packaging and branding solutions for retailers and gourmet brands.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-ceylani.primary font-medium">Flexible MOQ</span>
+                <a href="#contact" class="btn-primary text-sm">
+                  Request Quote
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a href="#contact" class="btn-primary">
+            View All Products & Request Catalog
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section-padding bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 center-title">
+          <h2 class="section-title text-3xl font-bold text-ceylani.navy inline-block">
+            Our Export Process
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+            We follow a structured, transparent process to ensure quality, compliance, and timely delivery
+            for all our international clients.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="text-center fade-in-up">
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary text-2xl">
+              1
+            </div>
+            <h3 class="font-bold text-lg text-ceylani.navy mb-2">Inquiry & Quotation</h3>
+            <p class="text-gray-600 text-sm">
+              Share your product requirements and receive a detailed quotation with pricing, specifications, and delivery terms.
+            </p>
+          </div>
+
+          <div class="text-center fade-in-up">
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary text-2xl">
+              2
+            </div>
+            <h3 class="font-bold text-lg text-ceylani.navy mb-2">Sourcing & Quality Check</h3>
+            <p class="text-gray-600 text-sm">
+              We source from verified producers and conduct thorough quality checks to meet your specifications.
+            </p>
+          </div>
+
+          <div class="text-center fade-in-up">
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary text-2xl">
+              3
+            </div>
+            <h3 class="font-bold text-lg text-ceylani.navy mb-2">Processing & Packaging</h3>
+            <p class="text-gray-600 text-sm">
+              Products are processed, graded, and packaged according to international standards and your requirements.
+            </p>
+          </div>
+
+          <div class="text-center fade-in-up">
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary text-2xl">
+              4
+            </div>
+            <h3 class="font-bold text-lg text-ceylani.navy mb-2">Shipping & Documentation</h3>
+            <p class="text-gray-600 text-sm">
+              We arrange logistics and provide all necessary export documentation for smooth customs clearance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section-padding bg-ceylani.soft">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="fade-in-up">
+            <h2 class="section-title text-3xl font-bold text-ceylani.navy">
+              Certifications & Compliance
+            </h2>
+            <p class="text-gray-600 mb-6">
+              We align with Sri Lankan export regulations and international food safety practices.
+              Our partner facilities and supply chain follow recognized standards to support your compliance requirements.
+            </p>
+            <div class="space-y-4">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">ISO / HACCP Oriented</h4>
+                  <p class="text-gray-600 text-sm">Partner facilities operate under ISO 22000 & HACCP guidelines.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-file-contract"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">EDB Registered</h4>
+                  <p class="text-gray-600 text-sm">Compliant with Sri Lanka Export Development Board requirements.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-flask"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Lab Testing Support</h4>
+                  <p class="text-gray-600 text-sm">Moisture, microbiology & residue tests via accredited labs.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary">
+                  <i class="fa-solid fa-passport"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Market-Specific Docs</h4>
+                  <p class="text-gray-600 text-sm">Health, Halal & other documents arranged on request.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fade-in-up">
+            <div class="card p-8">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-4">Quality Assurance Process</h3>
+              <div class="space-y-4">
+                <div class="flex items-start gap-3">
+                  <div class="w-6 h-6 rounded-full bg-ceylani.primary flex items-center justify-center text-white text-xs mt-1">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium text-gray-800">Raw Material Inspection</h4>
+                    <p class="text-gray-600 text-sm">Verification of source and initial quality assessment</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <div class="w-6 h-6 rounded-full bg-ceylani.primary flex items-center justify-center text-white text-xs mt-1">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium text-gray-800">Processing Standards</h4>
+                    <p class="text-gray-600 text-sm">Adherence to hygiene and processing protocols</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <div class="w-6 h-6 rounded-full bg-ceylani.primary flex items-center justify-center text-white text-xs mt-1">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium text-gray-800">Laboratory Testing</h4>
+                    <p class="text-gray-600 text-sm">Comprehensive testing for quality parameters</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <div class="w-6 h-6 rounded-full bg-ceylani.primary flex items-center justify-center text-white text-xs mt-1">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium text-gray-800">Final Inspection</h4>
+                    <p class="text-gray-600 text-sm">Pre-shipment verification and documentation</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-6 pt-6 border-t border-gray-200">
+                <p class="text-sm text-gray-600">
+                  Our quality management system ensures consistent product quality and compliance with international standards for all export markets.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section-padding bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 center-title">
+          <h2 class="section-title text-3xl font-bold text-ceylani.navy inline-block">
+            Trusted by International Buyers
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+            We've built lasting relationships with importers and distributors worldwide through
+            consistent quality and reliable service.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="testimonial-card fade-in-up">
+            <p class="text-gray-600 mb-6 relative z-10">
+              "Professional communication, strong documentation and consistent quality. A reliable Sri Lankan partner that understands our market requirements."
+            </p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary font-bold mr-3">
+                AE
+              </div>
+              <div>
+                <div class="font-semibold text-ceylani.navy">Ahmed El-Masri</div>
+                <div class="text-sm text-gray-500">Importer · UAE</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in-up">
+            <p class="text-gray-600 mb-6 relative z-10">
+              "They understand EU requirements clearly. From samples to shipment, the process was structured and transparent. We've expanded our product range with them."
+            </p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary font-bold mr-3">
+                MS
+              </div>
+              <div>
+                <div class="font-semibold text-ceylani.navy">Maria Schmidt</div>
+                <div class="text-sm text-gray-500">Food Distributor · Germany</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in-up">
+            <p class="text-gray-600 mb-6 relative z-10">
+              "Excellent spices and packaging support for our private label brand. Their attention to detail and responsive service make them highly recommended."
+            </p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 rounded-full bg-ceylani.light flex items-center justify-center text-ceylani.primary font-bold mr-3">
+                JT
+              </div>
+              <div>
+                <div class="font-semibold text-ceylani.navy">James Thompson</div>
+                <div class="text-sm text-gray-500">Retail Brand · Canada</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 gradient-bg text-white">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready to Source Premium Sri Lankan Products?</h2>
+        <p class="text-xl text-gray-100 mb-8">
+          Contact our export team today for competitive pricing, samples, and customized solutions.
+        </p>
+        <a href="#contact" class="btn-primary bg-ceylani.accent hover:bg-amber-600 text-lg px-8 py-3">
+          Get a Quote Now
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-padding bg-ceylani.soft">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-12">
+          <div class="fade-in-up">
+            <h2 class="section-title text-3xl font-bold text-ceylani.navy mb-4">
+              Contact Our Export Team
+            </h2>
+            <p class="text-gray-600 mb-6">
+              Share your product requirements, specifications, destinations, and timeline.
+              Our team will respond with a structured quotation and next steps.
+            </p>
+            
+            <div class="space-y-4 mb-8">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-ceylani.primary shadow-elegant">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Our Location</h4>
+                  <p class="text-gray-600">Colombo, Sri Lanka</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-ceylani.primary shadow-elegant">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Email Us</h4>
+                  <a href="mailto:sales@ceylaniexpo.com" class="text-gray-600 hover:text-ceylani.primary">sales@ceylaniexpo.com</a>
+                </div>
+              </div>
+              
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-ceylani.primary shadow-elegant">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Call Us</h4>
+                  <a href="tel:+94112223344" class="text-gray-600 hover:text-ceylani.primary">+94 11 222 3344</a>
+                </div>
+              </div>
+              
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-ceylani.primary shadow-elegant">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">WhatsApp</h4>
+                  <a href="https://wa.me/94770000000" target="_blank" rel="noopener" class="text-gray-600 hover:text-ceylani.primary">
+                    +94 77 000 0000
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 shadow-elegant">
+              <h3 class="font-bold text-lg text-ceylani.navy mb-2">Business Hours</h3>
+              <div class="space-y-2 text-sm text-gray-600">
+                <div class="flex justify-between">
+                  <span>Monday - Friday</span>
+                  <span>8:30 AM - 5:30 PM (IST)</span>
+                </div>
+                <div class="flex justify-between">
+                  <span>Saturday</span>
+                  <span>9:00 AM - 1:00 PM (IST)</span>
+                </div>
+                <div class="flex justify-between">
+                  <span>Sunday</span>
+                  <span>Closed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="fade-in-up">
+            <div class="card p-8">
+              <h3 class="font-bold text-xl text-ceylani.navy mb-6">Request a Quote</h3>
+              <form class="space-y-4">
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">Full Name *</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition">
+                  </div>
+                  <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">Company</label>
+                    <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition">
+                  </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">Email *</label>
+                    <input type="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition">
+                  </div>
+                  <div>
+                    <label class="block mb-2 text-sm font-medium text-gray-700">Phone</label>
+                    <input type="tel" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition">
+                  </div>
+                </div>
+                
+                <div>
+                  <label class="block mb-2 text-sm font-medium text-gray-700">Destination Country *</label>
+                  <input type="text" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition">
+                </div>
+                
+                <div>
+                  <label class="block mb-2 text-sm font-medium text-gray-700">Products & Quantities</label>
+                  <textarea rows="3" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition" placeholder="e.g. 5 MT Ceylon Cinnamon (C4), 10 MT Dried Sprats, 3 MT Maldive Fish..."></textarea>
+                </div>
+                
+                <div>
+                  <label class="block mb-2 text-sm font-medium text-gray-700">Additional Requirements</label>
+                  <textarea rows="3" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-ceylani.primary transition" placeholder="Incoterms, certifications, packaging, delivery timeline, etc."></textarea>
+                </div>
+                
+                <button type="submit" class="w-full btn-primary py-3 text-lg">
+                  Submit Quote Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-12 bg-ceylani.navy text-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-ceylani.primary to-ceylani.accent flex items-center justify-center text-white font-bold">
+              CE
+            </div>
+            <div class="font-bold text-xl">Ceylani Expo</div>
+          </div>
+          <p class="text-gray-300 text-sm mb-4">
+            Professional export management of premium Sri Lankan products for global markets.
+          </p>
+          <div class="flex gap-4">
+            <a href="#" class="w-8 h-8 rounded-full bg-ceylani.primary flex items-center justify-center text-white hover:bg-ceylani.accent transition">
+              <i class="fab fa-linkedin-in text-sm"></i>
+            </a>
+            <a href="#" class="w-8 h-8 rounded-full bg-ceylani.primary flex items-center justify-center text-white hover:bg-ceylani.accent transition">
+              <i class="fab fa-facebook-f text-sm"></i>
+            </a>
+            <a href="#" class="w-8 h-8 rounded-full bg-ceylani.primary flex items-center justify-center text-white hover:bg-ceylani.accent transition">
+              <i class="fab fa-instagram text-sm"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li><a href="#home" class="hover:text-white transition">Home</a></li>
+            <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+            <li><a href="#products" class="hover:text-white transition">Products</a></li>
+            <li><a href="#certifications" class="hover:text-white transition">Certifications</a></li>
+            <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Products</h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li><a href="#products" class="hover:text-white transition">Ceylon Cinnamon</a></li>
+            <li><a href="#products" class="hover:text-white transition">Black Pepper</a></li>
+            <li><a href="#products" class="hover:text-white transition">Dried Fish</a></li>
+            <li><a href="#products" class="hover:text-white transition">Desiccated Coconut</a></li>
+            <li><a href="#products" class="hover:text-white transition">Private Label</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Contact Info</h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-location-dot text-ceylani.accent mt-1"></i>
+              <span>Colombo, Sri Lanka</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-phone text-ceylani.accent mt-1"></i>
+              <a href="tel:+94112223344" class="hover:text-white transition">+94 11 222 3344</a>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-envelope text-ceylani.accent mt-1"></i>
+              <a href="mailto:sales@ceylaniexpo.com" class="hover:text-white transition">sales@ceylaniexpo.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-700 mt-8 pt-8 text-sm text-gray-400 text-center">
+        <p>© <span id="year"></span> Ceylani Expo (Pvt) Ltd. All Rights Reserved. | Professional Export Management · Ethical Sourcing · Global Compliance Focus</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVITY SCRIPT -->
+  <script>
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile Nav Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    
+    if (menuToggle) {
+      menuToggle.addEventListener('click', () => {
+        if (mobileNav.style.maxHeight && mobileNav.style.maxHeight !== '0px') {
+          mobileNav.style.maxHeight = '0px';
+        } else {
+          mobileNav.style.maxHeight = mobileNav.scrollHeight + 'px';
+        }
+      });
+    }
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    
+    document.querySelectorAll('.fade-in-up').forEach((el) => observer.observe(el));
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 100,
+            behavior: 'smooth'
+          });
+          
+          // Close mobile menu if open
+          if (mobileNav.style.maxHeight && mobileNav.style.maxHeight !== '0px') {
+            mobileNav.style.maxHeight = '0px';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
